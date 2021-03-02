@@ -1,0 +1,92 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    background-color: #333;
+    margin-top: 2rem;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: pink;
+}
+
+html{
+    background-color: white;
+}
+
+div.tweets{
+    border: 2px solid red; 
+    padding: 15px; 
+    background: coral; 
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: pink;
+}
+.change{
+    text-align: right;
+}
+input[type=text] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid pink;
+  border-radius: 4px;
+}
+input[type=password] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid pink;
+  border-radius: 4px;
+}
+input[type=email] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid pink;
+  border-radius: 4px;
+}
+input[type=submit] {
+  width: 10%;
+  padding: 1px 3px;
+  margin: 0;
+  box-sizing: border-box;
+  border: 2px solid pink;
+  border-radius: 4px;
+}
+div.tweets2{
+    border: 2px solid red; 
+    padding: 15px; 
+    background: pink; 
+    margin-bottom: 10px;
+}
+button{
+    width: 10%;
+    padding: 1px 3px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 2px solid pink;
+    border-radius: 4px;
+}

@@ -1,0 +1,1 @@
+mysql --user=st2014 --password=progress -A st2014
